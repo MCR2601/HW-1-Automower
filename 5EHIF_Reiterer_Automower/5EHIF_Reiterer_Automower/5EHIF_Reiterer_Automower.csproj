@@ -33,13 +33,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BasicRenderProviders">
-      <HintPath>..\..\..\ConsoleRenderingFramework\BasicRenderProviders\bin\Debug\BasicRenderProviders.dll</HintPath>
+      <HintPath>C:\Users\derma\Documents\Visual Studio 2017\Projects\ConsoleRenderingFramework\BasicRenderProviders\bin\Debug\BasicRenderProviders.dll</HintPath>
     </Reference>
     <Reference Include="ConsoleRenderingFramework">
-      <HintPath>..\..\..\ConsoleRenderingFramework\ConsoleRenderingFramework\bin\Debug\ConsoleRenderingFramework.dll</HintPath>
+      <HintPath>C:\Users\derma\Documents\Visual Studio 2017\Projects\ConsoleRenderingFramework\BasicRenderProviders\bin\Debug\ConsoleRenderingFramework.dll</HintPath>
     </Reference>
     <Reference Include="MultiSplitScreenManager">
-      <HintPath>..\..\..\ConsoleRenderingFramework\MultiSplitScreenManager\bin\Debug\MultiSplitScreenManager.dll</HintPath>
+      <HintPath>C:\Users\derma\Documents\Visual Studio 2017\Projects\ConsoleRenderingFramework\MultiSplitScreenManager\bin\Debug\MultiSplitScreenManager.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,11 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Quadrant.cs" />
+    <Compile Include="GrasTile.cs" />
+    <Compile Include="Mower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleCords.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Calculation.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
