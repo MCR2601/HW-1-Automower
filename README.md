@@ -33,9 +33,8 @@ Version 1:
 		* if the line is steep we walk down every y value to the wall and look at what 2 tiles are connected
 		* if the line is flat we walk down every x value to the wall and look at what 2 tiles are beeing connected
 		
-		
-		
-		
+This framework is used to display the entire thing
+https://github.com/MCR2601/ConsoleRenderingFramework
 		
 		
 		
