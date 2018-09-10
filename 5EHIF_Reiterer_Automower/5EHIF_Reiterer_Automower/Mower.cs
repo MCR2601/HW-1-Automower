@@ -31,7 +31,7 @@ namespace _5EHIF_Reiterer_Automower
         {
             get
             {
-                return posX - (a * posY);
+                return posY - (a * posX);
             }
         }
 
@@ -77,6 +77,12 @@ namespace _5EHIF_Reiterer_Automower
         public double GetXValueAt(double y)
         {
             return (y - b) / a;
+        }
+
+        public void ChangeRotation(double amount)
+        {
+            angle = (angle + Math.PI * 2 + amount) % (Math.PI * 2);
+            UpdateVectorFromAngle();
         }
 
         public Quadrant getAimDirection()
